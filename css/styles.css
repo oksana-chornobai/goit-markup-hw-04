@@ -468,7 +468,7 @@ gap: 24px;
 
 .footer-container {
     display: flex;
-    gap: 120px;
+    align-items: baseline;
 }
 
 .footer-logo-span {
@@ -487,13 +487,17 @@ gap: 24px;
         color: #4d5ae5;
 }
 
+.footer-box {
+    margin-right: 120px;
+}
+
 .footer-text {
     width: 264px;
     color: #f4f4fd;
     letter-spacing: 0.02em;
 }
 
-.footer-social-links-title {
+.footer-social-links-text {
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
